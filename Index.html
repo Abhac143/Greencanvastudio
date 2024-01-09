@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1, maximum-scale=1,user-scalabl=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<title>Home</title>
+<meta name="description" content="...">
+<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Pathway+Extreme:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/bc1ea3d2a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="menu-bar">
+    <img src=Images/logo.jpg  align="left" style="width:220px;height:80px"; />
+  <ul>
+  <li class="active"><a href="#">Home</a></li>
+<li><a href="#">Our Projects</a>
+   <div class="sub-menu-1">
+    <ul>
+      <li class="hover-me"><a href="#">Architecture</a>
+       <div class="sub-menu-2">
+        <ul>
+      <li><a href="#">Render</a></li>
+      <li><a href="#">3D </a></li>
+      </ul>
+  </div>
+</li>
+<li><a href="#">Interior</a></li>
+      </ul>
+  </div>
+</li>
+  <li><a href="#">About</a>
+  <li><a href="Contactform.html">Contact</a></li>
+    </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+  <!-- Demo styles -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper" style="padding-top:150px;">
+      <div class="swiper-slide"><img src="Images/slide1.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide2.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide3.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide4.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide1.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide3.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide2.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide1.jpg"></div>
+      <div class="swiper-slide"><img src="Images/slide4.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        effect: "fade",
+        loop: true,
+        speed: 1000,
+        autoplay:{
+          delay: 1000,
+        },
+        direction: "vertical",
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
+  <div class="center">
+
+<p style="text-align:center;"> 
+
+Welcome to GreenCanvasStudio website! We are a team of passionate architects and designers who are dedicated  creating beautiful and functional spaces that enhance the lives of our clients. With years of experience in the industry, we have worked on a wide range of projects including residential, commercials and institutional buildings.
+
+Our philosophy is centered around collaboration and innovation. We work closely with clients to understand their unique needs and vision, and we use our expertise to create designs that are both practical and aesthetically pleasing.We also stay up-to-date with the latest trends and technologies in the industry, ensuring that our designs are cutting-edge.
+
+Whether you're looking to build your dream home, renovate your office space, or design a new school, we have the expertise to make your vision a reality.Browse our portfolio to see some of our past projects,and get in touch with us to learn more about how we can help you with your next architecture project.
+
+</p></div>
+<p style="text-align:center;font-size:25px ; line-height:2.5em;"><b> Our Services</b></p>
+
+ <!-- Content -->
+
+<div class="Container">
+ <video class ="video" src="Images/Walkview.mp4" controls style="width:480px;  height:400px; float: left; padding:50px ;"></video>
+  <h2 style="text-align:center;padding-left: 200px; padding-right: 200px;line-height:2.5em;font-family: 'Pathway Extreme', sans-serif;">Walk-through Video</h2>
+  <p style="padding-left: 200px; padding-right: 200px; font-family: 'Montserrat', sans-serif;"> Whether you re looking to build your dream home, renovate your office space, or design a new school, we have the expertise to make your vision a reality.Browse our portfolio to see some of our past projects,and get in touch with us to learn more about how we can help you with your next architecture project.</p>
+</div>
+<div class="Container1">
+ <video class ="video" src="Images/Walkview1.mp4" controls style="width:480px;  height:400px; float: left; padding:50px ;"></video>
+  <h2 style="text-align:center;padding-left: 200px; padding-right: 200px;line-height:2.5em;font-family: 'Pathway Extreme', sans-serif;">Walk-through Video</h2>
+  <p style="padding-left: 200px; padding-right: 200px;font-family: 'Montserrat', sans-serif;"> Whether you re looking to build your dream home, renovate your office space, or design a new school, we have the expertise to make your vision a reality.Browse our portfolio to see some of our past projects,and get in touch with us to learn more about how we can help you with your next architecture project.</p>
+</div>
+<div class="Container2">
+ <video class ="video" src="Images/Walkview1.mp4" controls style="width:480px;  height:400px; float: left; padding:50px ;"></video>
+  <h2 style="text-align:center;padding-left: 200px; padding-right: 200px;line-height:2.5em;font-family: 'Pathway Extreme', sans-serif;">Walk-through Video</h2>
+  <p style="padding-left: 200px; padding-right: 200px;font-family: 'Montserrat', sans-serif;"> Whether you re looking to build your dream home, renovate your office space, or design a new school, we have the expertise to make your vision a reality.Browse our portfolio to see some of our past projects,and get in touch with us to learn more about how we can help you with your next architecture project.</p>
+</div>
+
+
+
+ <!-- Footer -->
+ <footer>
+   <div class="main-content">
+    <div class="left box">
+    <h2>About us</h2>
+    <div class="content">
+      <p>Welcome to GreenCanvasStudio website! We are a team of passionate architects and designers who are dedicated  creating beautiful and functional spaces that enhance the lives of our clients. With years of experience in the industry, we have worked on a wide range of projects including residential, commercials and institutional buildings</p>
+    </div>
+  </div>
+  <div class="centered box">
+    <h2>Address</h2>
+    <div class="content">
+    <div class="place">
+    <span class="fas fa-map-marker-alt"></span>
+    <span class="text">Lucknow,Uttarpradesh</span>
+  </div>
+ <div class="email">
+    <span class="fas fa-envelope"></span>
+    <span class="text">greencanvasstudio@gmail.com</span>
+  </div>
+  <div class="Phone">
+    <span class="fas fa-phone-alt"></span>
+    <span class="text">+91-79XXXXXXXX</span>
+  </div>
+</div>
+<div class="Social">
+          <h4>Lets connect</h4>
+        <a href="#"><span class="fab fa-facebook-f fa-beat-fade fa-lg"></span></a>
+        <a href="https://www.instagram.com/greencanvastudio/"><span class="fab fa-instagram fa-beat-fade fa-lg"></span></a>
+        <a href="#"><span class="fab fa-youtube fa-beat-fade fa-lg"></span></a>
+        <a href="#"><span class="fab fa-twitter fa-beat-fade fa-lg"></span></a>
+      </div>
+    </div>
+    <div class="right box">
+      <h2>Contact us</h2>
+      <div class="content">
+      <form action="#">
+      <div class="email">
+      <div  class="text">Email</div>
+      <input type="email" required>
+    </div>
+<div class="msg">
+  <div class="text">Message</div>
+  <textarea rows="2" cols="25" required></textarea></div>
+<div class="btn">
+<button type="submit">Send</button>
+
+        </div>
+      </form>
+  </div>
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+  
+
+   
